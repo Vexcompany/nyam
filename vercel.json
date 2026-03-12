@@ -1,0 +1,46 @@
+{
+  "version": 2,
+  "functions": {
+    "api/*.js": {
+      "maxDuration": 30
+    }
+  },
+  "crons": [
+    {
+      "path": "/api/cron/reminder?type=INTI",
+      "schedule": "0 15 * * 1"
+    },
+    {
+      "path": "/api/cron/reminder?type=INFOKOM",
+      "schedule": "0 7 * * 2"
+    },
+    {
+      "path": "/api/cron/reminder?type=INFOKOM",
+      "schedule": "0 7 * * 4"
+    },
+    {
+      "path": "/api/cron/reminder?type=GK3",
+      "schedule": "0 7 * * 3"
+    },
+    {
+      "path": "/api/cron/warning?type=INTI",
+      "schedule": "0 16 * * 1"
+    },
+    {
+      "path": "/api/cron/warning?type=INFOKOM",
+      "schedule": "0 8 * * 2"
+    },
+    {
+      "path": "/api/cron/warning?type=INFOKOM",
+      "schedule": "0 8 * * 4"
+    },
+    {
+      "path": "/api/cron/warning?type=GK3",
+      "schedule": "0 8 * * 3"
+    },
+    {
+      "path": "/api/cron/ultah",
+      "schedule": "0 7 * * *"
+    }
+  ]
+}
