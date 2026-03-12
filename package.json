@@ -2,7 +2,7 @@
   "name": "pagaska-cron-vercel",
   "version": "1.0.0",
   "description": "Pagaska AI Cron Job untuk Vercel",
-  "type": "module",
+  "main": "index.js",
   "scripts": {
     "dev": "vex"
   },
@@ -12,6 +12,6 @@
     "node-telegram-bot-api": "^0.64.0"
   },
   "engines": {
-    "node": "20.x"
+    "node": "24.x"
   }
 }
