@@ -6,6 +6,9 @@
   "scripts": {
     "dev": "Vex"
   },
+  "engines": {
+  "node": "20.x"
+  },
   "dependencies": {
     "axios": "^1.6.0",
     "cheerio": "^1.0.0-rc.12",
