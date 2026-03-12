@@ -1,0 +1,18 @@
+{
+  "1": {
+    "tahun": 2021,
+    "struktur": {
+      "Ketua Umum": {
+        "nama": "Ryan Yazid",
+        "ttl": "Bandung, 12 Maret 2004"
+      },
+      "Wakil Ketua": {
+        "nama": "Budi Santoso",
+        "ttl": "Garut, 5 Mei 2004"
+      },
+      "Sekretaris": {
+        "nama": "Ifa",
+        "ttl": "Kota Madiun, 6 Agustus 2006"
+    }
+  }
+}
